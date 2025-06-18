@@ -1,0 +1,8 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "runArgs": [
+    "--cpus=64",          // 限制使用 2 个 CPU
+    "--memory=128g"       // 限制内存为 4GB
+  ],
+  "features": {}
+}
